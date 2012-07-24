@@ -1,0 +1,15 @@
+{
+    "require": {
+        "silex/silex": "1.0.*",
+        "symfony/translation": "2.1.*"
+    },
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-0": {
+            "Emma\\DataApi": "src/",
+            "Emma\\Translation": "src/"
+        },
+        "classmap": ["../templates/classEmma.class.php"]
+    }
+}
